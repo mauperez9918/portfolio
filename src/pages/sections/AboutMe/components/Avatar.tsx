@@ -1,0 +1,16 @@
+import avatar from "../../../../assets/img/avatar.webp";
+
+const Avatar = () => {
+  return (
+    /* Img Container */
+    <div className="lg:max-h-[400px] xl:max-h-max lg:w-1/3 xs:w-[65%] rounded-lg shadow-lg border-[1px] border-primary/30">
+      <img
+        className="w-full h-auto object-contain rounded-lg"
+        src={avatar}
+        alt="Mauricio Perez Avatar"
+      />
+    </div>
+  );
+};
+
+export default Avatar;
