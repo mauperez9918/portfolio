@@ -5,10 +5,10 @@ import Skills from "./sections/Skills/Skills";
 const Home = () => {
   return (
     <main className="min-h-[80dvh] w-full">
-      <div className="w-3/4 h-full mx-auto">
+      <div className="w-full lg:w-[85%] xl:w-3/4 h-full flex flex-col items-center justify-center mx-auto">
         <AboutMe />
-        <Projects />
         <Skills />
+        <Projects />
       </div>
     </main>
   );

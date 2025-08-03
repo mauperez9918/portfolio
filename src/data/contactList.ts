@@ -1,19 +1,19 @@
-import GitHub from "../components/icons/ContactIcons/GitHub";
-import LinkedIn from "../components/icons/ContactIcons/LinkedIn";
-import Mail from "../components/icons/ContactIcons/Mail";
 import { infoItem } from "../types/infoItem";
 
 export const contactList: infoItem[] = [
   {
-    icon: Mail,
+    icon: "/contactIcons/mail-icon.png",
     name: "mauperez9918@gmail.com",
+    link: "mauperez9918@gmail.com",
   },
   {
-    icon: LinkedIn,
+    icon: "/contactIcons/linkedInIcon.png",
     name: "LinkedIn",
+    link: "https://www.linkedin.com/in/mauricio-perez9918/",
   },
   {
-    icon: GitHub,
+    icon: "/contactIcons/githubIcon.png",
     name: "GitHub",
+    link: "https://github.com/mauperez9918",
   },
 ];

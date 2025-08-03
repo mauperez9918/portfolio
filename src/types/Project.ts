@@ -3,7 +3,7 @@ export interface Project {
   name: string;
   description: string;
   technologies: {
-    icon: React.FC;
+    iconImg: string;
     name: string;
   }[];
   img: string;

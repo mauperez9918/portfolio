@@ -13,33 +13,40 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 2.3rem;
-  color: #5db7de;
+  color: #032263;
 }
 
 h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 1.7rem;
-  color: #5db7de;
+  font-size: 2rem;
+  color: #032263;
 }
 
 h3 {
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 1.5rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #032263;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.7rem;
+  color: #032263;
 }
 
 button {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 1rem;
-  background-color: #5db7de;
+  background-color: #032263;
   border-radius: 8px 8px;
   padding: 7px;
   color: white;
 }
 
 button:hover {
-  background-color: #9bb1ff;
-  color: #f1e9db;
+  background-color: #3b82f6;
 }

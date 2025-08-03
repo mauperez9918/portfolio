@@ -3,18 +3,24 @@ import { skillsList } from "../../../data/skillsList";
 const Skills = () => {
   return (
     <section
-      className="w-full h-48 flex flex-col mb-20 justify-around"
+      className="w-11/12 xl:w-full xl:h-48 flex flex-col mb-20 justify-around text-white"
       id="skills"
     >
-      <h2 className="w-full text-center text-4xl">Habilidades</h2>
+      <h3 className="w-full text-4xl text-center">Habilidades</h3>
 
-      <div className="flex justify-around w-full h-1/2">
+      <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-6 mt-10 w-full h-1/2">
         {skillsList.map((skill) => {
-          const Icon = skill.icon;
           return (
-            <div key={skill.name} className="flex items-center">
-              <Icon className="w-12 h-12 mb-2" />
-              <span>{skill.name}</span>
+            <div
+              key={skill.name}
+              className="flex h-14 items-center bg-white text-black p-2 rounded-md shadow-md border-[1px] border-primary/30"
+            >
+              <img
+                className="w-auto h-full"
+                src={skill.icon}
+                alt={skill.name}
+              />
+              <span className="px-2">{skill.name}</span>
             </div>
           );
         })}

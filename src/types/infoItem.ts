@@ -1,6 +1,5 @@
-import { ElementType } from "react";
-
 export interface infoItem {
-  icon: ElementType;
+  icon: string;
   name: string;
+  link?: string;
 }

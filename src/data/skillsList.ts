@@ -1,28 +1,24 @@
-import DataBase from "../components/icons/DataBase";
-import JavaScript from "../components/icons/JavaScript";
-import NodeJs from "../components/icons/NodeJs";
-import ReactJs from "../components/icons/ReactJs";
 import { infoItem } from "../types/infoItem";
 
 export const skillsList: infoItem[] = [
   {
-    icon: JavaScript,
+    icon: "/images/javaScriptIcon.png",
     name: "JavaScript",
   },
   {
-    icon: NodeJs,
+    icon: "/images/nodeIcon.png",
     name: "NodeJs",
   },
   {
-    icon: ReactJs,
+    icon: "/images/reactIcon.png",
     name: "ReactJs",
   },
   {
-    icon: DataBase,
+    icon: "/images/dbIcon.png",
     name: "MongoDB",
   },
   {
-    icon: DataBase,
+    icon: "/images/dbIcon.png",
     name: "FireBase",
   },
 ];
