@@ -8,17 +8,19 @@ const DescriptionSide: React.FC<DescriptionSideProps> = ({
 }) => {
   return (
     <div className="lg:w-[45%] flex flex-col justify-around items-center">
+      {/* Project Name */}
+      <h4 className="my-4">{name}</h4>
       {/* Project Description */}
-      <h4 className="my-4">{name}</h4>{" "}
       <p className="text-justify">{description}</p>
       {/* Buttons Container */}
       <div className="flex w-full gap-3 mt-6 md:justify-end">
-        <button className="hover:scale-105 transition-all ease-in-out">
-          <a
-            className="flex justify-center items-center"
-            href={code ? code : "#"}
-            target="_blank"
-            rel="noopener noreferrer"
+        {/* View Code Button */}
+        <a href={code ? code : "#"} target="_blank" rel="noopener noreferrer">
+          <button
+            disabled={code ? false : true}
+            className={`hover:scale-105 transition-all ease-in-out flex justify-center items-center ${
+              code ? "" : "bg-slate-500 hover:scale-100 hover:bg-slate-500"
+            }`}
           >
             <svg
               className="w-6 h-6 text-gray-800 dark:text-white"
@@ -37,16 +39,13 @@ const DescriptionSide: React.FC<DescriptionSideProps> = ({
                 d="m8 8-4 4 4 4m8 0 4-4-4-4m-2-3-4 14"
               />
             </svg>
-            <span>Ver Código</span>
-          </a>
-        </button>
-        <button className="hover:scale-105 transition-all ease-in-out">
-          <a
-            className="flex justify-center items-center"
-            href={pageLink}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+            <span>{code ? "Ver Código" : "Código no disponible"}</span>
+          </button>
+        </a>
+
+        {/* View Proyect Button */}
+        <a href={pageLink} target="_blank" rel="noopener noreferrer">
+          <button className="hover:scale-105 transition-all ease-in-out flex justify-center items-center">
             <svg
               className="w-6 h-6 text-gray-800 dark:text-white"
               aria-hidden="true"
@@ -65,8 +64,8 @@ const DescriptionSide: React.FC<DescriptionSideProps> = ({
               />
             </svg>
             <span>Ver proyecto</span>
-          </a>
-        </button>
+          </button>
+        </a>
       </div>
     </div>
   );

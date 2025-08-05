@@ -1,5 +1,5 @@
 import { contactList } from "../../../../data/contactList";
-import IconTemplate from "../../../../components/common/IconTemplate";
+import Socials from "./Socials";
 
 const Contact = () => {
   return (
@@ -9,7 +9,7 @@ const Contact = () => {
       <ul className="w-full grid grid-cols-1 gap-4 justify-center items-center">
         {contactList.map((contact) => {
           return (
-            <IconTemplate
+            <Socials
               key={contact.name}
               name={contact.name}
               iconImg={contact.icon}

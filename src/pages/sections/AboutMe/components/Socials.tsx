@@ -1,6 +1,6 @@
-import { IconTemplateProps } from "../../types/iconTemplateProps";
+import { IconTemplateProps } from "../../../../types/iconTemplateProps";
 
-const IconTemplate: React.FC<IconTemplateProps> = ({
+const Socials: React.FC<IconTemplateProps> = ({
   name,
   iconImg,
   extraClass,
@@ -10,14 +10,14 @@ const IconTemplate: React.FC<IconTemplateProps> = ({
     <a
       href={`${link ? link : "#"}`}
       onClick={(e) => !link && e.preventDefault()}
-      target="_blank"
+      target={"_blank"}
       rel="noopener noreferrer"
-      className={`w-auto rounded-3xl ${
+      className={`flex items-center mx-auto w-2/3 xl:w-1/2 lg:mx-auto rounded-3xl bg-red-500 ${
         link ? "cursor-pointer" : "cursor-default"
       }`}
     >
       <li
-        className={`flex justify-center items-center p-3 full rounded-3xl shadow-md border-[1px] border-primary/30 ${
+        className={`flex w-full justify-center items-center p-3 full rounded-3xl shadow-md border-[1px] border-primary/30 ${
           extraClass || "bg-primary"
         }`}
         key={name}
@@ -27,10 +27,10 @@ const IconTemplate: React.FC<IconTemplateProps> = ({
           src={iconImg}
           alt={name}
         />
-        <span className="ml-1 text-sm">{name}</span>
+        <span className="ml-1 text-sm lg:text-base">{name}</span>
       </li>
     </a>
   );
 };
 
-export default IconTemplate;
+export default Socials;

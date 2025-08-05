@@ -19,6 +19,26 @@ export const skillsList: infoItem[] = [
   },
   {
     icon: "/images/dbIcon.png",
+    name: "ExpressJs",
+  },
+  {
+    icon: "/images/dbIcon.png",
     name: "FireBase",
+  },
+  {
+    icon: "/images/dbIcon.png",
+    name: "Html",
+  },
+  {
+    icon: "/images/dbIcon.png",
+    name: "Css",
+  },
+  {
+    icon: "/images/dbIcon.png",
+    name: "TailwindCss",
+  },
+  {
+    icon: "/images/dbIcon.png",
+    name: "TypeScript",
   },
 ];

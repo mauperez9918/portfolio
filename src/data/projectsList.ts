@@ -1,5 +1,6 @@
 import smartDroneCover from "../assets/img/smartDroneCover.png";
 import matildeShowroomCover from "../assets/img/matildeShowroomCover.png";
+import rumbleStoreCover from "../assets/img/rumbleStoreCover.webp";
 import { Project } from "../types/Project";
 
 export const projectList: Project[] = [
@@ -53,5 +54,25 @@ export const projectList: Project[] = [
     img: matildeShowroomCover,
     pageLink: "https://matildeshowroom.vercel.app/",
     code: "https://github.com/mauperez9918/matilde-showroom/tree/main",
+  },
+
+  {
+    id: 3,
+    name: "Rumble Store",
+    description:
+      "RumbleStore es un ecommerce desarrollado como proyecto personal utilizando HTML, CSS y JavaScript puro, sin frameworks ni backend. Implementé un sistema de carrito de compras totalmente funcional con almacenamiento en localStorage, actualización dinámica de productos y cálculo automático de totales. El diseño es responsive y se enfoca en una experiencia de usuario fluida. Este proyecto fue mi primer acercamiento al desarrollo web y me permitió comprender las bases del DOM, la manipulación de eventos y la lógica detrás de una tienda online.",
+    technologies: [
+      {
+        iconImg: "/images/htmlIcon.png",
+        name: "HTML",
+      },
+      {
+        iconImg: "/images/javaScriptIcon.png",
+        name: "JavaScript",
+      },
+    ],
+    img: rumbleStoreCover,
+    pageLink: "https://mauperez9918.github.io/RumbleStore-JS/",
+    code: "https://github.com/mauperez9918/RumbleStore-JS",
   },
 ];
