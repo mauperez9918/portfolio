@@ -1,14 +1,9 @@
-import { useState } from "react";
-
 const Footer = () => {
-  const [copyEmail, setCopyEmail] = useState(false);
-
   const copyEmailHandler = async () => {
     const email = "mauperez9918@gmail.com";
 
     try {
       await navigator.clipboard.writeText(email);
-      setCopyEmail(true);
     } catch (err) {
       console.error("Error al copiar:", err);
     }
