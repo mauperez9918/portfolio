@@ -5,12 +5,25 @@ const Description = () => {
     /* Description Container */
     <div className="flex flex-col justify-between">
       <p className="text-justify">
-        Desarrollador full stack con experiencia en e-commerce y plataformas
-        personalizadas. Especializado en React, Node.js y Firebase, con enfoque
-        en código limpio y escalable. Trabajo de manera colaborativa para crear
-        soluciones eficientes y optimizadas, priorizando la experiencia del
-        usuario y el rendimiento del producto. Me capacito continuamente para
-        mejorar mis habilidades y aportar valor a cada proyecto.
+        Mi nombre es Mauricio y soy un{" "}
+        <strong>Desarrollador Web Fullstack</strong>. Me considero una persona
+        versátil, con gran capacidad analítica para realizar tareas y una
+        excelente habilidad de comunicación. Preparado para aportar mis
+        conocimientos y habilidades, contribuyendo activamente a la mejora
+        continua de los procesos, proyectos y equipos. Busco un entorno donde
+        pueda crecer tanto a nivel personal como profesional, ayudando a
+        alcanzar las metas laborales de manera eficiente y efectiva. Tengo
+        experiencia en E-commerce y plataformas personalizadas.{" "}
+        <strong>
+          Especializado en React, Node.js, MongoDB y Firebase, con enfoque en
+          código limpio y escalable
+        </strong>
+        . <br />
+        <br />
+        <strong></strong>Tengo facilidad para el trabajo en equipo de modo que
+        logremos crear soluciones eficientes y optimizadas, priorizando la
+        experiencia del usuario. Me capacito continuamente para mejorar,
+        aprender y aportar valor a cada proyecto.
       </p>
 
       <a
