@@ -6,7 +6,7 @@ import Introduction from "./components/Introduction";
 const AboutMe = () => {
   return (
     <section
-      className="w-full md:h-[700px] lg:h-[600px] xl:h-[650px] xl:py-0 xl:my-4 py-10 px-5 md:pt-0 flex flex-col gap-6 mb-10 md:flex-row lg:bg-transparent lg:border-none items-center text-black bg-white border-b-[1px] border-primary/30 rounded-b-lg"
+      className="w-full md:h-[700px] lg:h-[600px] xl:h-[650px] xl:py-0 xl:my-4 py-20 px-5 md:pt-0 flex flex-col gap-6 md:flex-row lg:bg-transparent lg:border-none items-center text-black bg-white border-b-[1px] border-primary/30 rounded-b-lg"
       id="about"
     >
       <Avatar />

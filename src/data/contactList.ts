@@ -4,7 +4,7 @@ export const contactList: infoItem[] = [
   {
     icon: "/contactIcons/mail-icon.png",
     name: "mauperez9918@gmail.com",
-    link: "mauperez9918@gmail.com",
+    link: "mailto:mauperez9918@gmail.com",
   },
   {
     icon: "/contactIcons/linkedInIcon.png",

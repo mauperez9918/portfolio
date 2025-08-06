@@ -4,7 +4,7 @@ import ProjectCard from "./components/ProjectCard";
 const Projects = () => {
   return (
     <section
-      className="w-full flex flex-col md:mb-20 justify-center items-center"
+      className="w-full flex flex-col md:my-20 justify-center items-center"
       id="projects"
     >
       {/* Section Title */}

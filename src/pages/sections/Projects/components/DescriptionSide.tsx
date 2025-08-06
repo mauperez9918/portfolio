@@ -13,7 +13,7 @@ const DescriptionSide: React.FC<DescriptionSideProps> = ({
       {/* Project Description */}
       <p className="text-justify">{description}</p>
       {/* Buttons Container */}
-      <div className="flex w-full gap-3 mt-6 md:justify-end">
+      <div className="flex w-full gap-3 my-6 md:justify-end">
         {/* View Code Button */}
         <a href={code ? code : "#"} target="_blank" rel="noopener noreferrer">
           <button

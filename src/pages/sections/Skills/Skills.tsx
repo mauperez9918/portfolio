@@ -3,7 +3,7 @@ import { skillsList } from "../../../data/skillsList";
 const Skills = () => {
   return (
     <section
-      className="w-11/12 xl:w-full xl:h-48 flex flex-col mb-20 justify-around text-white"
+      className="w-11/12 xl:w-full xl:h-48 flex flex-col my-20 justify-around text-white"
       id="skills"
     >
       <h3 className="w-full text-4xl text-center">Habilidades</h3>

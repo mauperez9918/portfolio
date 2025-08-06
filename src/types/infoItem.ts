@@ -1,5 +1,5 @@
 export interface infoItem {
-  icon: string;
+  icon: any;
   name: string;
   link?: string;
 }

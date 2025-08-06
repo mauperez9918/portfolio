@@ -13,11 +13,14 @@ const Description = () => {
         mejorar mis habilidades y aportar valor a cada proyecto.
       </p>
 
-      <button className="w-3/5 sm:w-2/5 h-12 mx-auto lg:w-2/5 mt-5 hover:scale-105 font-semibold transition-all">
-        <a href={cv} target="_blank" rel="noopener noreferrer">
-          Ver Curriculum
-        </a>
-      </button>
+      <a
+        className="mx-auto w-3/5 sm:w-2/5 h-12  lg:w-2/5 mt-5 hover:scale-105 font-semibold transition-all"
+        href={cv}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button className="w-full h-full">Ver Curriculum</button>
+      </a>
     </div>
   );
 };
