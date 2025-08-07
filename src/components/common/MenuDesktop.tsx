@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 const MenuDesktop = () => {
   return (
-    <ul className="flex w-2/3 justify-end font-semibold text-base text-primary font-mainFont">
+    <ul className="hidden md:flex w-2/3 justify-end font-semibold text-base text-primary font-mainFont">
       <Link to="about" smooth={true} duration={500} offset={-130}>
         <li className="text-center px-7 py-4 hover:cursor-pointer hover:scale-105 transition-all">
           Sobre mi
