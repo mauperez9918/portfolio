@@ -11,7 +11,7 @@ const AboutMe = () => {
     >
       {/* Introduction Container */}
       <div className="flex flex-col w-full gap-5 justify-center items-center">
-        <div className="w-full h-full lg:h-[700px] xl:h-auto flex flex-col lg:flex-row justify-center items-center">
+        <div className="w-full h-full lg:h-[800px] xl:h-auto flex flex-col lg:flex-row justify-center items-center">
           <Avatar />
           <div className="w-11/12 lg:h-[500px] lg:w-1/2 mx-auto h-full flex flex-col justify-around">
             <Introduction />
