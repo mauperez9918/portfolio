@@ -1,5 +1,5 @@
-import smartDroneCover from "../assets/img/smartDroneCover.png";
-import matildeShowroomCover from "../assets/img/matildeShowroomCover.png";
+import smartDroneCover from "../assets/img/smartDroneCover.webp";
+import matildeShowroomCover from "../assets/img/matildeShowroomCover.webp";
 import rumbleStoreCover from "../assets/img/rumbleStoreCover.webp";
 import schwarzLaboratoriesCover from "../assets/img/schwarzLaboratoriesCover.webp";
 import firebaseIcon from "../assets/icon/firebaseIcon.png";
@@ -77,7 +77,7 @@ export const projectList: Project[] = [
 
   {
     id: 3,
-    name: "Schwarz Laboratories (EN DESARROLLO)",
+    name: "Schwarz Laboratories(EN DESARROLLO)",
     description:
       "Schwarz es una empresa de la industria panameña especializada en neumática. Desarrollé un modelo de ecommerce sin pasarela de pagos, cuyo objetivo principal fue modernizar el antiguo sitio web de la empresa y facilitar a los clientes la posibilidad de solicitar cotizaciones de productos directamente desde la plataforma. El usuario puede agregar productos a un carrito y, mediante un formulario, enviar su solicitud para recibir la cotización por correo electrónico, ya que los precios no se muestran públicamente a pedido del cliente. El proyecto se encuentra actualmente en desarrollo, por lo que algunas funcionalidades están pendientes de finalización o mejora.",
     technologies: [

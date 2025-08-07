@@ -13,12 +13,17 @@ const DescriptionSide: React.FC<DescriptionSideProps> = ({
       {/* Project Description */}
       <p className="text-justify">{description}</p>
       {/* Buttons Container */}
-      <div className="flex w-full gap-3 my-6 md:justify-end">
+      <div className="flex w-full gap-3 my-6 justify-center md:justify-end">
         {/* View Code Button */}
-        <a href={code ? code : "#"} target="_blank" rel="noopener noreferrer">
+        <a
+          className="w-1/2"
+          href={code ? code : "#"}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button
             disabled={code ? false : true}
-            className={`hover:scale-105 transition-all ease-in-out flex justify-center items-center ${
+            className={`w-full hover:scale-105 transition-all ease-in-out flex justify-center items-center ${
               code ? "" : "bg-slate-500 hover:scale-100 hover:bg-slate-500"
             }`}
           >
@@ -44,8 +49,13 @@ const DescriptionSide: React.FC<DescriptionSideProps> = ({
         </a>
 
         {/* View Proyect Button */}
-        <a href={pageLink} target="_blank" rel="noopener noreferrer">
-          <button className="hover:scale-105 transition-all ease-in-out flex justify-center items-center">
+        <a
+          className="w-1/2"
+          href={pageLink}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="w-full hover:scale-105 transition-all ease-in-out flex justify-center items-center">
             <svg
               className="w-6 h-6 text-gray-800 dark:text-white"
               aria-hidden="true"

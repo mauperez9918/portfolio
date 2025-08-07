@@ -9,13 +9,9 @@ const ImageSide: React.FC<ImageSideProps> = ({ img, technologies }) => {
 
       {/* Technologies Map */}
       <ul className="min-h-8 mt-4 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-3 2xl:grid-cols-4 gap-3 w-full text-white">
-        {technologies.map((item) => {
+        {technologies.map((item, index) => {
           return (
-            <IconTemplate
-              key={item.name}
-              name={item.name}
-              iconImg={item.iconImg}
-            />
+            <IconTemplate key={index} name={item.name} iconImg={item.iconImg} />
           );
         })}
       </ul>
