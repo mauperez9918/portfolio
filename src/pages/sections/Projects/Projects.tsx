@@ -4,11 +4,11 @@ import ProjectCard from "./components/ProjectCard";
 const Projects = () => {
   return (
     <section
-      className="w-full flex flex-col md:my-20 justify-center items-center"
+      className="w-full flex flex-col md:mb-10 justify-center items-center"
       id="projects"
     >
       {/* Section Title */}
-      <h3 className="w-full font-mainFont text-4xl text-center mb-14 md:mb-28">
+      <h3 className="w-full font-mainFont text-4xl text-center mb-8">
         Proyectos destacados
       </h3>
 

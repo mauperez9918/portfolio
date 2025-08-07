@@ -14,7 +14,7 @@ const ProjectCard: React.FC<Project> = ({
   return (
     <>
       {id % 2 === 0 ? (
-        <article className="flex flex-col lg:flex-row justify-around md:justify-between w-full bg-gray-200 lg:mb-32 lg:bg-white rounded-t-md lg:rounded-md shadow-md border-b-[1px] lg:border-[1px] border-primary/30 px-9 py-16">
+        <article className="flex flex-col lg:flex-row justify-around md:justify-between w-full bg-gray-200 lg:mb-16 lg:bg-white rounded-t-md lg:rounded-md shadow-md border-b-[1px] lg:border-[1px] border-primary/30 px-9 pb-10 lg:py-9 ">
           <ImageSide img={img} technologies={technologies} />
           <DescriptionSide
             name={name}
@@ -24,7 +24,7 @@ const ProjectCard: React.FC<Project> = ({
           />
         </article>
       ) : (
-        <article className="flex flex-col lg:flex-row justify-around md:justify-between w-full lg:mb-32 bg-white rounded-t-md lg:rounded-md shadow-md border-[1px] border-primary/30 px-9 py-16">
+        <article className="flex flex-col lg:flex-row justify-around md:justify-between w-full lg:mb-16 bg-white rounded-t-md lg:rounded-md shadow-md border-[1px] border-primary/30 px-9 pb-10 lg:py-9 ">
           <DescriptionSide
             name={name}
             description={description}
