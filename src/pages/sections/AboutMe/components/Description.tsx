@@ -1,4 +1,4 @@
-import cv from "../../../../assets/cv/Mauricio-Perez-Full-Stack-Developer.pdf";
+import cv from "../../../../assets/cv/Mauricio Perez-Web-Full-Stack-Dev-EN.pdf";
 
 const Description = () => {
   return (
