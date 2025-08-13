@@ -26,7 +26,7 @@ export const englishProjectList: Project[] = [
 
       {
         iconImg: "/images/tailwindCssIcon.png",
-        name: "Tailwind CSS",
+        name: "TailwindCSS",
       },
 
       {
@@ -62,7 +62,7 @@ export const englishProjectList: Project[] = [
 
       {
         iconImg: "/images/tailwindCssIcon.png",
-        name: "Tailwind CSS",
+        name: "TailwindCSS",
       },
 
       {
@@ -98,7 +98,7 @@ export const englishProjectList: Project[] = [
 
       {
         iconImg: "/images/tailwindCssIcon.png",
-        name: "Tailwind CSS",
+        name: "TailwindCSS",
       },
 
       {
