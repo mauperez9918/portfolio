@@ -7,7 +7,7 @@ import bootstrapIcon from "../assets/icon/bootstrapIcon.png";
 import cssIcon from "../assets/icon/cssIcon.png";
 import { Project } from "../types/Project";
 
-export const projectList: Project[] = [
+export const spanishProjectList: Project[] = [
   {
     id: 1,
     name: "SmartDrone",
@@ -21,12 +21,12 @@ export const projectList: Project[] = [
 
       {
         iconImg: cssIcon,
-        name: "Css",
+        name: "CSS",
       },
 
       {
         iconImg: "/images/tailwindCssIcon.png",
-        name: "TailwindCss",
+        name: "Tailwind CSS",
       },
 
       {
@@ -47,7 +47,7 @@ export const projectList: Project[] = [
     technologies: [
       {
         iconImg: "/images/reactIcon.png",
-        name: "ReactJs",
+        name: "ReactJS",
       },
 
       {
@@ -57,12 +57,12 @@ export const projectList: Project[] = [
 
       {
         iconImg: cssIcon,
-        name: "Css",
+        name: "CSS",
       },
 
       {
         iconImg: "/images/tailwindCssIcon.png",
-        name: "TailwindCss",
+        name: "Tailwind CSS",
       },
 
       {
@@ -87,18 +87,18 @@ export const projectList: Project[] = [
       },
 
       {
-        iconImg: "/images/htmlIcon.png",
-        name: "HTML",
+        iconImg: cssIcon,
+        name: "CSS",
       },
 
       {
         iconImg: "/images/reactIcon.png",
-        name: "ReactJs",
+        name: "ReactJS",
       },
 
       {
         iconImg: "/images/tailwindCssIcon.png",
-        name: "TailwindCss",
+        name: "Tailwind CSS",
       },
 
       {
@@ -128,8 +128,8 @@ export const projectList: Project[] = [
       },
 
       {
-        iconImg: "/images/htmlIcon.png",
-        name: "HTML",
+        iconImg: cssIcon,
+        name: "CSS",
       },
 
       {

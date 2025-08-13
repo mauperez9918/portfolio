@@ -1,5 +1,5 @@
-import MenuDesktop from "./common/MenuDesktop";
-import MenuMobile from "./common/MenuMobile";
+import MenuDesktop from "./components/MenuDesktop";
+import MenuMobile from "./components/MenuMobile";
 
 const Navbar = () => {
   return (

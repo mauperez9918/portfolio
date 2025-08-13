@@ -1,8 +1,10 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
+import UseLanguage from "../../hooks/UseLanguage";
 
 const MenuMobile = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { lang, toggle } = UseLanguage();
 
   return (
     <div className="w-1/3 md:hidden h-1/2 flex justify-end pr-5">
@@ -27,19 +29,35 @@ const MenuMobile = () => {
       >
         <Link to="about" smooth={true} duration={500}>
           <li className="text-center px-2 py-4 hover:cursor-pointer hover:scale-105 transition-all">
-            Sobre mi
+            Sobre Mi
           </li>
         </Link>
+
         <Link to="projects" smooth={true} duration={500}>
           <li className="text-center px-2 py-4 hover:cursor-pointer hover:scale-105 transition-all">
             Proyectos
           </li>
         </Link>
+
         <Link to="skills" smooth={true} duration={500}>
           <li className="text-center px-2 py-4 hover:cursor-pointer hover:scale-105 transition-all">
             Habilidades
           </li>
         </Link>
+
+        <li
+          key={lang}
+          role="option"
+          tabIndex={0}
+          onClick={() => {
+            toggle(), setIsOpen(!isOpen);
+          }}
+          className={`text-center px-2 py-4 hover:cursor-pointer hover:scale-105 transition-all`}
+        >
+          <span>
+            {lang === "es" ? "Switch to English" : "Cambiar a Español"}
+          </span>
+        </li>
       </ul>
     </div>
   );

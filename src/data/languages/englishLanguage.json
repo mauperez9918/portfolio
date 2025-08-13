@@ -1,0 +1,35 @@
+{
+  "navbar": {
+    "aboutMe": "About Me",
+    "skills": "Skills",
+    "projects": "Projects"
+  },
+
+  "aboutMe": {
+    "introduction": {
+      "welcome": "Welcome!",
+      "name": "I'm Mauricio Perez"
+    },
+
+    "description": {
+      "part1": "My name is Mauricio, and I am a ",
+      "strong1": "Full Stack Web Developer. ",
+      "part2": "I consider myself a versatile person with strong analytical skills to carry out tasks and excellent communication abilities. I am prepared to contribute my knowledge and skills, actively participating in the continuous improvement of processes, projects, and teams. I seek an environment where I can grow both personally and professionally, helping to efficiently and effectively achieve work goals. I have experience in e-commerce and custom platforms. ",
+      "strong2": "Specialized in React, Node.js, MongoDB, and Firebase, with a focus on clean and scalable code.",
+      "part3": "I work well in a team to create efficient and optimized solutions, prioritizing the user experience. I constantly train myself to improve, learn, and add value to every project.",
+      "cvButton": "View Resume"
+    },
+    "contact": { "title": "Contact" }
+  },
+
+  "skills": {
+    "title": "Skills"
+  },
+
+  "projects": {
+    "title": "Featured Projects"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

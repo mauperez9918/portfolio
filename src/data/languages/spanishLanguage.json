@@ -1,0 +1,35 @@
+{
+  "navbar": {
+    "aboutMe": "Sobre Mi",
+    "skills": "Habilidades",
+    "projects": "Proyectos"
+  },
+
+  "aboutMe": {
+    "introduction": {
+      "welcome": "¡Bienvenidos!",
+      "name": "Soy Mauricio Perez"
+    },
+
+    "description": {
+      "part1": "Mi nombre es Mauricio y soy un ",
+      "strong1": "Desarrollador Web Fullstack. ",
+      "part2": "Me considero una persona versátil, con gran capacidad analítica para realizar tareas y una excelente habilidad de comunicación. Preparado para aportar mis conocimientos y habilidades, contribuyendo activamente a la mejora continua de los procesos, proyectos y equipos. Busco un entorno donde pueda crecer tanto a nivel personal como profesional, ayudando a alcanzar las metas laborales de manera eficiente y efectiva. Tengo experiencia en E-commerce y plataformas personalizadas. ",
+      "strong2": "Especializado en React, Node.js, MongoDB y Firebase, con enfoque en código limpio y escalable.",
+      "part3": "Tengo facilidad para el trabajo en equipo de modo que logremos crear soluciones eficientes y optimizadas, priorizando la experiencia del usuario. Me capacito continuamente para mejorar, aprender y aportar valor a cada proyecto.",
+      "cvButton": "Ver Curriculum"
+    },
+    "contact": { "title": "Contacto" }
+  },
+
+  "skills": {
+    "title": "Habilidades y Tecnologías"
+  },
+
+  "projects": {
+    "title": "Proyectos Destacados"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  }
+}

@@ -1,3 +1,4 @@
+import UseLanguage from "../../../../components/hooks/UseLanguage";
 import { DescriptionSideProps } from "../../../../types/descriptionSideProps";
 
 const DescriptionSide: React.FC<DescriptionSideProps> = ({
@@ -6,6 +7,8 @@ const DescriptionSide: React.FC<DescriptionSideProps> = ({
   pageLink,
   code,
 }) => {
+  const { lang } = UseLanguage();
+
   return (
     <div className="lg:w-[45%] flex flex-col justify-around items-center">
       {/* Project Name */}
@@ -44,7 +47,15 @@ const DescriptionSide: React.FC<DescriptionSideProps> = ({
                 d="m8 8-4 4 4 4m8 0 4-4-4-4m-2-3-4 14"
               />
             </svg>
-            <span>{code ? "Ver Código" : "Código no disponible"}</span>
+            <span>
+              {lang === "es"
+                ? code
+                  ? "Ver Código"
+                  : "Código no disponible"
+                : code
+                ? "View Code"
+                : "Not available"}
+            </span>
           </button>
         </a>
 
@@ -73,7 +84,7 @@ const DescriptionSide: React.FC<DescriptionSideProps> = ({
                 d="M13.213 9.787a3.391 3.391 0 0 0-4.795 0l-3.425 3.426a3.39 3.39 0 0 0 4.795 4.794l.321-.304m-.321-4.49a3.39 3.39 0 0 0 4.795 0l3.424-3.426a3.39 3.39 0 0 0-4.794-4.795l-1.028.961"
               />
             </svg>
-            <span>Ver proyecto</span>
+            <span>{lang === "es" ? "Ver Proyecto" : "View Project"}</span>
           </button>
         </a>
       </div>
