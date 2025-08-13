@@ -128,8 +128,8 @@ export const englishProjectList: Project[] = [
       },
 
       {
-        iconImg: "/images/htmlIcon.png",
-        name: "HTML",
+        iconImg: cssIcon,
+        name: "CSS",
       },
 
       {
